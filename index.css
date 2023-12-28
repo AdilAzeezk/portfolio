@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Lobster&family=Playfair+Display:ital,wght@0,400;1,700&family=Roboto:ital,wght@0,300;1,300&display=swap');
-
+body{
+   background: url(image/3.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
 .navbar-collapse{
     display: flex;
     justify-content: space-between;
@@ -35,7 +40,7 @@
 
 }
 .name p{
-    color: rgb(90, 89, 89);
+    color: rgba(3, 0, 0, 0.699);
     font-weight: bold;
     font-family: "roboto";
 }
@@ -125,4 +130,9 @@ textarea{
     transform: translateY(-5px);
 }
 .ll:hover{
-        background: #000327; }   
+        background: #000327; 
+}   
+.form-label{
+    font-weight: bold;
+}
+
